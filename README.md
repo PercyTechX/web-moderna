@@ -93,3 +93,4 @@ Define reglas personalizadas para tu proyecto:
 - ` "semi": ["error", "always"]`  👉 Exige que todas las declaraciones terminen con punto y coma (;).
 - ` "no-unused-vars": "warn"`  👉 Advertencia si hay variables declaradas pero no usadas.
 - ` "no-console": "warn"`  👉 Advertencia si se deja un console.log() en el código.
+

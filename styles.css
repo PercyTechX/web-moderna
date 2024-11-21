@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
     color: #ffffff;
   }
   
-  /* 600px en adelante */
+   600px en adelante 
   @media (min-width: 600px) {
     body {
       background-color: red;
@@ -38,4 +38,17 @@
       top: 0;
       bottom: auto;
     }
-  }
+  } */
+
+  /* Reset de márgenes, relleno y ajuste de box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif; 
+  background-color: #f5f5f5; 
+}
