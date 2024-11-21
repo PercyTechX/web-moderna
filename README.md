@@ -54,7 +54,7 @@ Define en qué entorno se ejecutará el código:
 
 📚 Extensiones (extends)
 ```json
-Copiar código
+
 "extends": ["eslint:recommended"]
 ```
 
@@ -62,7 +62,7 @@ Aquí se extienden las reglas recomendadas por ESLint, una colección de reglas 
 
 🔍 Opciones del analizador (parserOptions)
 ``` json
-Copiar código
+
 "parserOptions": {
   "ecmaVersion": "latest",
   "sourceType": "module"
@@ -74,7 +74,7 @@ Copiar código
 
 🛠️ Reglas específicas (rules)
 ```json
-Copiar código
+
 "rules": {
   "indent": ["error", 2],
   "linebreak-style": ["error", "unix"],
