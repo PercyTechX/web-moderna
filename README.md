@@ -87,11 +87,9 @@ Aquí se extienden las reglas recomendadas por ESLint, una colección de reglas 
 
 Define reglas personalizadas para tu proyecto:
 
-"indent": ["error", 2] 👉 Exige que la indentación sea de 2 espacios. Si no se cumple, marcará un error.
-"linebreak-style": ["error", "unix"] 👉 Obliga a usar saltos de línea estilo Unix (\n), típico en Linux/macOS.
-"quotes": ["error", "single"] 👉 Indica que se deben usar comillas simples (') para las cadenas.
-"semi": ["error", "always"] 👉 Exige que todas las declaraciones terminen con punto y coma (;).
-"no-unused-vars": "warn" 👉 Advertencia si hay variables declaradas pero no usadas.
-"no-console": "warn" 👉 Advertencia si se deja un console.log() en el código.
-🧑‍💻 En resumen:
-Este archivo configura ESLint para garantizar un código JavaScript limpio, consistente y libre de errores comunes, con reglas específicas para el entorno del navegador y estándares modernos. Es una herramienta útil para mantener la calidad del código en equipos de desarrollo. 🚀.
+```"indent": ["error", 2].  👉 Exige que la indentación sea de 2 espacios. Si no se cumple, marcará un error.
+``` "linebreak-style": ["error", "unix"]. 👉 Obliga a usar saltos de línea estilo Unix (\n), típico en Linux/macOS.
+``` "quotes": ["error", "single"]. 👉 Indica que se deben usar comillas simples (') para las cadenas.
+``` "semi": ["error", "always"].  👉 Exige que todas las declaraciones terminen con punto y coma (;).
+``` "no-unused-vars": "warn".  👉 Advertencia si hay variables declaradas pero no usadas.
+``` "no-console": "warn".  👉 Advertencia si se deja un console.log() en el código.
