@@ -49,8 +49,8 @@
 
 Define en qué entorno se ejecutará el código:
 
-"browser": true 👉 Indica que el código está diseñado para ejecutarse en navegadores web, por lo que entiende variables globales como window o document.
-"es2021": true 👉 Permite usar las características de JavaScript de la versión ECMAScript 2021 (como Promise.allSettled o el operador lógico nullish).
+`"browser": true` 👉 Indica que el código está diseñado para ejecutarse en navegadores web, por lo que entiende variables globales como window o document.
+`"es2021": true` 👉 Permite usar las características de JavaScript de la versión ECMAScript 2021 (como Promise.allSettled o el operador lógico nullish).
 
 📚 Extensiones (extends)
 ```json
