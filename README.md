@@ -87,7 +87,7 @@ Aquí se extienden las reglas recomendadas por ESLint, una colección de reglas 
 
 Define reglas personalizadas para tu proyecto:
 
-```"indent": ["error", 2].  👉 Exige que la indentación sea de 2 espacios. Si no se cumple, marcará un error.
+``` "indent": ["error", 2].  👉 Exige que la indentación sea de 2 espacios. Si no se cumple, marcará un error.
 ``` "linebreak-style": ["error", "unix"]. 👉 Obliga a usar saltos de línea estilo Unix (\n), típico en Linux/macOS.
 ``` "quotes": ["error", "single"]. 👉 Indica que se deben usar comillas simples (') para las cadenas.
 ``` "semi": ["error", "always"].  👉 Exige que todas las declaraciones terminen con punto y coma (;).
