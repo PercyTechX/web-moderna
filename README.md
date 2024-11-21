@@ -39,33 +39,41 @@
 ### Explicacion del codigo
 
 🌐 Configuración del entorno (env)
-json
+```json
 Copiar código
 "env": {
   "browser": true,
   "es2021": true
 }
+```
+
 Define en qué entorno se ejecutará el código:
 
 "browser": true 👉 Indica que el código está diseñado para ejecutarse en navegadores web, por lo que entiende variables globales como window o document.
 "es2021": true 👉 Permite usar las características de JavaScript de la versión ECMAScript 2021 (como Promise.allSettled o el operador lógico nullish).
+
 📚 Extensiones (extends)
-json
+```json
 Copiar código
 "extends": ["eslint:recommended"]
+```
+
 Aquí se extienden las reglas recomendadas por ESLint, una colección de reglas básicas para mantener buenas prácticas de codificación.
 
 🔍 Opciones del analizador (parserOptions)
-json
+``` json
 Copiar código
 "parserOptions": {
   "ecmaVersion": "latest",
   "sourceType": "module"
 }
+```
+
 "ecmaVersion": "latest" 👉 Permite analizar y entender las últimas características de JavaScript.
 "sourceType": "module" 👉 Indica que el código usa módulos de JavaScript (import/export), común en aplicaciones modernas.
+
 🛠️ Reglas específicas (rules)
-json
+```json
 Copiar código
 "rules": {
   "indent": ["error", 2],
@@ -75,6 +83,8 @@ Copiar código
   "no-unused-vars": "warn",
   "no-console": "warn"
 }
+```
+
 Define reglas personalizadas para tu proyecto:
 
 "indent": ["error", 2] 👉 Exige que la indentación sea de 2 espacios. Si no se cumple, marcará un error.
@@ -84,4 +94,4 @@ Define reglas personalizadas para tu proyecto:
 "no-unused-vars": "warn" 👉 Advertencia si hay variables declaradas pero no usadas.
 "no-console": "warn" 👉 Advertencia si se deja un console.log() en el código.
 🧑‍💻 En resumen:
-Este archivo configura ESLint para garantizar un código JavaScript limpio, consistente y libre de errores comunes, con reglas específicas para el entorno del navegador y estándares modernos. Es una herramienta útil para mantener la calidad del código en equipos de desarrollo. 🚀
+Este archivo configura ESLint para garantizar un código JavaScript limpio, consistente y libre de errores comunes, con reglas específicas para el entorno del navegador y estándares modernos. Es una herramienta útil para mantener la calidad del código en equipos de desarrollo. 🚀.
