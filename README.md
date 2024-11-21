@@ -40,7 +40,7 @@
 
 🌐 Configuración del entorno (env)
 ```json
-Copiar código
+
 "env": {
   "browser": true,
   "es2021": true
